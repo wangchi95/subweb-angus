@@ -5,7 +5,7 @@
         <el-card style="margin-top:20px;max-width:800px;margin:auto;opacity:0.8;blackground-color:#0F4677;border-radius: 20px;">
           <div slot="header" style="blackground-color:#0F4677;text-align:center;font-size :25px !important;font-weight: bold !important;">
             <svg-icon icon-class="lock" style="margin-left: 20px" title="完整魔改版:v1.4"/>
-            つつの订阅转换
+            Angus订阅转换
             <svg-icon icon-class="telegram" style="margin-left: 10px" title="加入Telegram吹水群" @click="gotoTgChannel" />
           </div>
           <el-container>
@@ -261,6 +261,16 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "ZJU专属规则",
+            options: [
+              {
+                label: "ZJU-全分组",
+                value:
+                  "https://cdn.jsdelivr.net/gh/lhl77/sub-ini@main/tsutsu-full.ini"
+              },
+            ]
+          },
+          {
             label: "つつの专属规则",
             options: [
               {
@@ -280,7 +290,7 @@ export default {
               },
             ]
           },
-	{
+	        {
             label: "つつの机场定制",
             options: [
               {
