@@ -270,7 +270,7 @@ export default {
               },
             ]
           },
-          {
+  {
             label: "つつの专属规则",
             options: [
               {
@@ -290,7 +290,7 @@ export default {
               },
             ]
           },
-	{
+          {
             label: "つつの机场定制",
             options: [
               {
